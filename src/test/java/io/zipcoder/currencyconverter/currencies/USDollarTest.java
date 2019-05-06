@@ -5,7 +5,6 @@ import io.zipcoder.currencyconverter.CurrencyType;
 import org.junit.Assert;
 
 public class USDollarTest implements CurrencyTestInterface {
-    Double DO_MATH = null;
     /**
      * template method to be called by other test methods
      * @param currencyType type of currency to convert to
