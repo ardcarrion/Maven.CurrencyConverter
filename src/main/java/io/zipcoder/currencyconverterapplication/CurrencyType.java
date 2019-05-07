@@ -25,17 +25,6 @@ public enum CurrencyType {
     }
 
     public static CurrencyType getTypeOfCurrency(ConvertableCurrency currency) {
-        for(CurrencyType currencyType : values()) {
-            if(currencyType
-                    .name()
-                    .replaceAll("_", "")
-                    .equals(currency
-                            .getClass()
-                            .getSimpleName()
-                            .toUpperCase())) {
-                return currencyType;
-            }
-        }
         return null;
     }
 }
