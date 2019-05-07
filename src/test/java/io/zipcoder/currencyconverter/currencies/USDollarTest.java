@@ -8,8 +8,9 @@ import org.junit.Test;
 public class USDollarTest implements CurrencyTestInterface {
     /**
      * template method to be called by other test methods
+     *
      * @param currencyType type of currency to convert to
-     * @param expected rate to expect
+     * @param expected     rate to expect
      */
     private void testConversion(CurrencyType currencyType, Double expected) {
         // given
@@ -19,9 +20,13 @@ public class USDollarTest implements CurrencyTestInterface {
         Double actual = currency.convert(currencyType);
 
         // then
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(expected, actual, .0001);
     }
 
+    @Test
+    public void testUSDollarConversion() {
+        testConversion(CurrencyType.US_DOLLAR, 1.0);
+    }
 
     @Test
     public void testAustralianConversion() {
@@ -71,11 +76,6 @@ public class USDollarTest implements CurrencyTestInterface {
     @Test
     public void testUniversalCurrencyConversion() {
         testConversion(CurrencyType.UNIVERSAL_CURRENCY, 0.50);
-    }
-
-    @Test
-    public void testUSDollarConversion() {
-        testConversion(CurrencyType.US_DOLLAR, 1.0);
     }
 
     @Test

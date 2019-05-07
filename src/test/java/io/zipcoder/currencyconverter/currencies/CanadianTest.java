@@ -24,13 +24,13 @@ public class CanadianTest {
     }
 
     @Test
-    public void testAustralianConversion() {
-        testConversion(CurrencyType.AUSTRALIAN_DOLLAR, null);
+    public void testCanadianDollarConversion() {
+        testConversion(CurrencyType.CANADIAN_DOLLAR, 1.0);
     }
 
     @Test
-    public void testCanadianDollarConversion() {
-        testConversion(CurrencyType.CANADIAN_DOLLAR, null);
+    public void testAustralianConversion() {
+        testConversion(CurrencyType.AUSTRALIAN_DOLLAR, null);
     }
 
     @Test

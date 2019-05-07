@@ -25,7 +25,7 @@ public class AustralianDollarTest implements CurrencyTestInterface {
 
     @Test
     public void testAustralianConversion() {
-        testConversion(CurrencyType.AUSTRALIAN_DOLLAR, null);
+        testConversion(CurrencyType.AUSTRALIAN_DOLLAR, 1.0);
     }
 
     @Test

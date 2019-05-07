@@ -19,7 +19,12 @@ public class UniversalCurrencyTest implements CurrencyTestInterface {
         Double actual = currency.convert(currencyType);
 
         // then
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(expected, actual, .0001);
+    }
+
+    @Test
+    public void testUniversalCurrencyConversion() {
+        testConversion(CurrencyType.UNIVERSAL_CURRENCY, 1.0);
     }
 
     @Test
@@ -65,11 +70,6 @@ public class UniversalCurrencyTest implements CurrencyTestInterface {
     @Test
     public void testSingaporeConversion() {
         testConversion(CurrencyType.SINGAPORE_DOLLAR, 1.86);
-    }
-
-    @Test
-    public void testUniversalCurrencyConversion() {
-        testConversion(CurrencyType.UNIVERSAL_CURRENCY, 1.0);
     }
 
     @Test
