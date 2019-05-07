@@ -1,45 +1,26 @@
 # Wu-Tang Financial
+* **Objective** - to implement a `CurrencyConverter` capable of identifying exchange rates between any two arbitrary types of currency
+* **Purpose** - to demonstrate use of
+    * object orientation
+    * enums  
 
-### Currency Exchange
-
-## Objectives
-
-1. Demonstrate your understanding of Test Driven Development
-2. Demonstrate your understanding of Single Responsibility
-
-## Overview
-
-Welcome to the Wu-Tang Financial lab. Using the Exchange rate chart below, follow the instructions. 
+## Instructions
+* Create a program that can convert between different currencies without loss of universal value.
+ 
 
 ## Exchange Rates
 
 | Currency | Rate |
 |----------|------|
-| Us Dollar| 1.00 |
-| Euro                  | 0.94 |
-| British Pound         | 0.82  |
-| Indian Rupee          | 68.32 |
-| Australian Dollar	    |	1.35|
-| Canadian Dollar       | 1.32 |
-| Singapore Dollar      | 1.43 |
-| Swiss Franc           | 1.01 |
-| Malaysian Ringgit     | 4.47  |
-| Japanese Yen          | 115.84 |
-| Chinese Yuan Renminbi | 6.92   |
-
-## Instructions
-
-Create a program that can convert any currency into the requested type.
-
-There MUST be Unit test testing the following scenarios 
-
-1. Convert Dollar to Euro
-2. Convert Euro to Dollar
-3. Convert Euro to British Pound
-4. Convert British Pound to Indian Rupee
-5. Convert Rupee to Canadian Dollar
-6. Convert Canadian Dollar to Singapore Dollar
-7. Convert Singapore Dollar to Swiss Franc
-8. Convert Swiss Franc to Malaysian Ringgit
-9. Convert Malaysian Ringgit to Japanese Yen
-10. Convert Japanese Yen to Chinese Yuan Renminbi
+| Universal Currency    | 1.00   |
+| Us Dollar             | 2.00   |
+| Euro                  | 1.88   |
+| British Pound         | 1.64   |
+| Indian Rupee          | 136.64 |
+| Australian Dollar	    | 2.70   |
+| Canadian Dollar       | 2.64   |
+| Singapore Dollar      | 2.86   |
+| Swiss Franc           | 2.02   |
+| Malaysian Ringgit     | 8.94   |
+| Japanese Yen          | 231.68 |
+| Chinese Yuan Renminbi | 13.84  |
