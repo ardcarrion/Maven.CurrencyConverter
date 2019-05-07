@@ -25,61 +25,61 @@ public class USDollarTest implements CurrencyTestInterface {
 
     @Test
     public void testAustralianConversion() {
-        testConversion(CurrencyType.AUSTRALIAN_DOLLAR, 2.70);
+        testConversion(CurrencyType.AUSTRALIAN_DOLLAR, 1.35);
     }
 
     @Test
     public void testCanadianDollarConversion() {
-        testConversion(CurrencyType.CANADIAN_DOLLAR, 2.64);
+        testConversion(CurrencyType.CANADIAN_DOLLAR, 1.32);
     }
 
     @Test
     public void testChineseYRConversion() {
-        testConversion(CurrencyType.CHINESE_YR, 13.84);
+        testConversion(CurrencyType.CHINESE_YR, 6.92);
     }
 
     @Test
     public void testEuroConversion() {
-        testConversion(CurrencyType.EURO, 1.88);
+        testConversion(CurrencyType.EURO, 0.94);
     }
 
     @Test
     public void testFrancConversion() {
-        testConversion(CurrencyType.FRANC, 2.02);
+        testConversion(CurrencyType.FRANC, 1.01);
     }
 
     @Test
     public void testPoundConversion() {
-        testConversion(CurrencyType.POUND, 1.64);
+        testConversion(CurrencyType.POUND, 0.82);
     }
 
     @Test
     public void testRinggitConversion() {
-        testConversion(CurrencyType.RINGGIT, 8.94);
+        testConversion(CurrencyType.RINGGIT, 4.47);
     }
 
     @Test
     public void testRupeeConversion() {
-        testConversion(CurrencyType.RUPEE, 136.64);
+        testConversion(CurrencyType.RUPEE, 68.32);
     }
 
     @Test
     public void testSingaporeConversion() {
-        testConversion(CurrencyType.SINGAPORE_DOLLAR, 1.86);
+        testConversion(CurrencyType.SINGAPORE_DOLLAR, 0.93);
     }
 
     @Test
     public void testUniversalCurrencyConversion() {
-        testConversion(CurrencyType.UNIVERSAL_CURRENCY, 1.0);
+        testConversion(CurrencyType.UNIVERSAL_CURRENCY, 0.50);
     }
 
     @Test
     public void testUSDollarConversion() {
-        testConversion(CurrencyType.US_DOLLAR, 2.0);
+        testConversion(CurrencyType.US_DOLLAR, 1.0);
     }
 
     @Test
     public void testYenConversion() {
-        testConversion(CurrencyType.YEN, 231.68);
+        testConversion(CurrencyType.YEN, 115.84);
     }
 }
