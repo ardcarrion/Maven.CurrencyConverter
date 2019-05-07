@@ -25,12 +25,12 @@ public class CanadianTest {
 
     @Test
     public void testAustralianConversion() {
-        testConversion(CurrencyType.AUSTRALIAN, null);
+        testConversion(CurrencyType.AUSTRALIAN_DOLLAR, null);
     }
 
     @Test
     public void testCanadianDollarConversion() {
-        testConversion(CurrencyType.CANADIAN, null);
+        testConversion(CurrencyType.CANADIAN_DOLLAR, null);
     }
 
     @Test
@@ -65,7 +65,7 @@ public class CanadianTest {
 
     @Test
     public void testSingaporeConversion() {
-        testConversion(CurrencyType.SINGAPORE, null);
+        testConversion(CurrencyType.SINGAPORE_DOLLAR, null);
     }
 
     @Test
@@ -75,7 +75,7 @@ public class CanadianTest {
 
     @Test
     public void testUSDollarConversion() {
-        testConversion(CurrencyType.US, null);
+        testConversion(CurrencyType.US_DOLLAR, null);
     }
 
     @Test

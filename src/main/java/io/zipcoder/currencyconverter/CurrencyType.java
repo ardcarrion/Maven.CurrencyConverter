@@ -1,16 +1,16 @@
 package io.zipcoder.currencyconverter;
 
 public enum CurrencyType {
-    AUSTRALIAN(2.70),
-    CANADIAN(2.64),
+    AUSTRALIAN_DOLLAR(2.70),
+    CANADIAN_DOLLAR(2.64),
     CHINESE_YR(13.84),
     EURO(1.88),
     FRANC(2.02),
     POUND(1.64),
     RINGGIT(8.94),
     RUPEE(136.64),
-    SINGAPORE(1.86),
-    US(2.0),
+    SINGAPORE_DOLLAR(1.86),
+    US_DOLLAR(2.0),
     UNIVERSAL_CURRENCY(1.0),
     YEN(231.68);
 
@@ -22,5 +22,20 @@ public enum CurrencyType {
 
     public Double getRate() {
         return rate;
+    }
+
+    public static CurrencyType getTypeOfCurrency(ConvertableCurrency currency) {
+        for(CurrencyType currencyType : values()) {
+            if(currencyType
+                    .name()
+                    .replaceAll("_", "")
+                    .equals(currency
+                            .getClass()
+                            .getSimpleName()
+                            .toUpperCase())) {
+                return currencyType;
+            }
+        }
+        return null;
     }
 }

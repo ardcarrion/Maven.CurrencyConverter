@@ -25,12 +25,12 @@ public class USDollarTest implements CurrencyTestInterface {
 
     @Test
     public void testAustralianConversion() {
-        testConversion(CurrencyType.AUSTRALIAN, 2.70);
+        testConversion(CurrencyType.AUSTRALIAN_DOLLAR, 2.70);
     }
 
     @Test
     public void testCanadianDollarConversion() {
-        testConversion(CurrencyType.CANADIAN, 2.64);
+        testConversion(CurrencyType.CANADIAN_DOLLAR, 2.64);
     }
 
     @Test
@@ -65,7 +65,7 @@ public class USDollarTest implements CurrencyTestInterface {
 
     @Test
     public void testSingaporeConversion() {
-        testConversion(CurrencyType.SINGAPORE, 1.86);
+        testConversion(CurrencyType.SINGAPORE_DOLLAR, 1.86);
     }
 
     @Test
@@ -75,7 +75,7 @@ public class USDollarTest implements CurrencyTestInterface {
 
     @Test
     public void testUSDollarConversion() {
-        testConversion(CurrencyType.US, 2.0);
+        testConversion(CurrencyType.US_DOLLAR, 2.0);
     }
 
     @Test
