@@ -6,9 +6,9 @@
 
 ## Instructions
 * Create a program that can convert between different currencies without loss of universal value.
- 
 
-## Exchange Rates
+
+### Exchange Rates
 
 | Currency | Rate |
 |----------|------|
@@ -24,3 +24,12 @@
 | Malaysian Ringgit     | 8.94   |
 | Japanese Yen          | 231.68 |
 | Chinese Yuan Renminbi | 13.84  |
+
+
+<hr><hr>
+
+## Food for thought
+* Consider the following:
+    A. 1 Euro is 1.88 Universal Currency
+    B. 1 US Dollar is 2.00 Universal Currency
+    C. 1 US Dollar is 0.94 Euro
