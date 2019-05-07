@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.zipcoder</groupId>
-    <artifactId>tc-money-converter</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>currency-converter</artifactId>
+    <version>1.0</version>
 
     <dependencies>
 
