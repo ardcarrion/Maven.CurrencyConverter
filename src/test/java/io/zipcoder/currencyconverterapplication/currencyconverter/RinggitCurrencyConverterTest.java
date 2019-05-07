@@ -3,7 +3,6 @@ package io.zipcoder.currencyconverterapplication.currencyconverter;
 import io.zipcoder.currencyconverterapplication.ConvertableCurrency;
 import io.zipcoder.currencyconverterapplication.CurrencyConverter;
 import io.zipcoder.currencyconverterapplication.CurrencyType;
-import io.zipcoder.currencyconverterapplication.currencies.Franc;
 import io.zipcoder.currencyconverterapplication.currencies.Ringgit;
 import org.junit.Assert;
 import org.junit.Test;
