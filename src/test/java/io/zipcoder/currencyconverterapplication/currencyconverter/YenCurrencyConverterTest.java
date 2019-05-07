@@ -3,7 +3,6 @@ package io.zipcoder.currencyconverterapplication.currencyconverter;
 import io.zipcoder.currencyconverterapplication.ConvertableCurrency;
 import io.zipcoder.currencyconverterapplication.CurrencyConverter;
 import io.zipcoder.currencyconverterapplication.CurrencyType;
-import io.zipcoder.currencyconverterapplication.currencies.USDollar;
 import io.zipcoder.currencyconverterapplication.currencies.Yen;
 import org.junit.Assert;
 import org.junit.Test;
