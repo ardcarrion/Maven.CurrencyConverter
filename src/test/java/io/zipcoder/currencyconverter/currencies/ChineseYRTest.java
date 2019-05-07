@@ -20,7 +20,7 @@ public class ChineseYRTest {
         Double actual = currency.convert(currencyType);
 
         // then
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(expected, actual, .0001);
     }
 
     @Test

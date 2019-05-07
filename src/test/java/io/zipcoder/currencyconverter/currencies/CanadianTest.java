@@ -20,7 +20,7 @@ public class CanadianTest {
         Double actual = currency.convert(currencyType);
 
         // then
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(expected, actual, .0001);
     }
 
     @Test
@@ -30,56 +30,56 @@ public class CanadianTest {
 
     @Test
     public void testAustralianConversion() {
-        testConversion(CurrencyType.AUSTRALIAN_DOLLAR, null);
+        testConversion(CurrencyType.AUSTRALIAN_DOLLAR, 1.0227272727272727);
     }
 
     @Test
     public void testChineseYRConversion() {
-        testConversion(CurrencyType.CHINESE_YR, null);
+        testConversion(CurrencyType.CHINESE_YR, 5.242424242424242);
     }
 
     @Test
     public void testEuroConversion() {
-        testConversion(CurrencyType.EURO, null);
+        testConversion(CurrencyType.EURO, .712121212121212);
     }
 
     @Test
     public void testFrancConversion() {
-        testConversion(CurrencyType.FRANC, null);
+        testConversion(CurrencyType.FRANC, .7651515151515151);
     }
 
     @Test
     public void testPoundConversion() {
-        testConversion(CurrencyType.POUND, null);
+        testConversion(CurrencyType.POUND, .6212121212121212);
     }
 
     @Test
     public void testRinggitConversion() {
-        testConversion(CurrencyType.RINGGIT, null);
+        testConversion(CurrencyType.RINGGIT, 3.3863636363636362);
     }
 
     @Test
     public void testRupeeConversion() {
-        testConversion(CurrencyType.RUPEE, null);
+        testConversion(CurrencyType.RUPEE, 51.75757575757575);
     }
 
     @Test
     public void testSingaporeConversion() {
-        testConversion(CurrencyType.SINGAPORE_DOLLAR, null);
+        testConversion(CurrencyType.SINGAPORE_DOLLAR, .7045454545454546);
     }
 
     @Test
     public void testUniversalCurrencyConversion() {
-        testConversion(CurrencyType.UNIVERSAL_CURRENCY, null);
+        testConversion(CurrencyType.UNIVERSAL_CURRENCY, .3787878787878788);
     }
 
     @Test
     public void testUSDollarConversion() {
-        testConversion(CurrencyType.US_DOLLAR, null);
+        testConversion(CurrencyType.US_DOLLAR, .7575757575757576);
     }
 
     @Test
     public void testYenConversion() {
-        testConversion(CurrencyType.YEN, null);
+        testConversion(CurrencyType.YEN, 87.75757575757576);
     }
 }
