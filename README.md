@@ -30,6 +30,6 @@
 
 ## Food for thought
 * Consider the following:
-    A. 1 Euro is 1.88 Universal Currency
-    B. 1 US Dollar is 2.00 Universal Currency
-    C. 1 US Dollar is 0.94 Euro
+    * 1 Euro is 1.88 Universal Currency
+    * 1 US Dollar is 2.00 Universal Currency
+    * 1 US Dollar is 0.94 Euro
